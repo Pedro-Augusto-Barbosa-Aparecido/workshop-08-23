@@ -10,7 +10,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, html {
-    background-color: ${props => props.theme["white"]}
+    background-color: ${props => props.theme["white"]};
+    box-sizing: border-box;
+
+    margin: 0 ;
 
   }
 
